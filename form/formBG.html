@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../navbar/nav.css">
+    <link rel="stylesheet" href="form.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+
+    <title>Свържи се с нас</title>
+</head>
+<body onload="main()">
+       
+    <nav id="nav">
+        <div class="logo">
+            <h4>FELS MUSIC</h4>
+        </div>
+        <ul class="nav-links">
+                <li><a href="../index/indexBG.html">Начало</a></li>
+                <li><a href="../index/indexBG.html#about">За нас</a></li>
+                <li><a href="../team/teamBG.html">Нашият Състав</a></li>
+                <li><a href="../band/bandBG.html">Рок Група</a></li>
+                <li><a href="../form/form.html"> EN
+                <li><a href="../form/formBG.html">
+                    <div id="navbtn" >ПИШЕТЕ НИ
+                    </div>
+                </a></li>
+        </ul>
+        <div id="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    <div id="policy_modal_container">
+            <div id="policy_modal">
+                <div id="modal_heading">
+                    <h2 >Privacy Policy</h2>
+                </div>
+                <p style="text-align: center;">
+                        <h3 style="margin:0 5%;"> Cookies</h2>
+                        <p style="margin:0 5%;">
+                        Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.
+                        
+                        Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site. The third party cookies used are from SoundCloud and Tockify. Links to their policies are provided below:
+                        
+                        <p style="margin :5px 5%;">
+                        <a style="color:#c53211" href=" https://soundcloud.com/pages/cookies">SoundCloud</a></p>
+                        <p style="margin :0 5%;"><a style="color:#c53211" href=" https://tockify.com/i/docs/company/privacy">Tockify</a></p>
+                        
+                    </p>
+                    <h3 style="margin:1em 5% 0 5%"> Security</h3>
+                    <p style="margin:0 5%;">
+                        The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.
+                    </p>
+                    <p style="margin:20px 5%;">The full privacy policy can be seen <a style="color:#c53211" href="https://drive.google.com/file/d/1GzA5XxMvu6T2DFdb9TKRuI0o7dJhAKm5/view?usp=sharing" target="_blank">here</a>.
+                </p></p>
+                <div id="close_btn">
+                    Close
+                </div>
+            </div>
+        </div>
+    <div id="background">
+        <div id="wrapper" class="wrapper">
+            <h1>Свържи се с нас</h1>
+            <article id="info">
+                <h2>Въпрос? <span style="color:#c53211" >Ние не хапем.</span></h2>
+                <p>С нетърпение чакаме следващият си концерт, където да покажем наученото! Ако желаете той да бъде на организирано от Вас мероприятие, пратете ни съобщение чрез формуляра.</p>
+                <p>Оркестърът винаги може да бъде по-голям! Ако искате да се присъедините към нас и сте на възраст между 14 и 17 години, попълнете формуляра. Предишен музикален опит е предимство, но не е задължителен. С оркестърът работят доказани професионалисти които да Ви обучат, както и обновена база от музикални инструменти, от които да си изберете.</p>
+                <div class="band_ad">
+                    <h3>Има и Рок Група?</h3>
+                    <p id="band_text">WhiteLines са рок групата на Първа Английска Езикова Гимназия. Създадена от почетния диригент, г-жа Николина Ангелова, тези млади рок динозаври с богат репертоар само си търсят поводи да скъсат поредната китарна жица. Ако искате те да са на вашето събитие можете да се свържете с тях чрез формуляра.</p>
+                    <a href="../band/bandBG.html">
+                    <div id="adbtn">Check us out!</div>
+                </a>
+                </div>
+            </article>
+            <div id="form_container">
+                <form id="contact_us">
+                    <h3 style="margin-bottom:1em;padding-left:5%;">С кого желаете да се свържете?</h3>
+                        <p style="padding:0 5%;">
+                                <input type="radio" id="orchestra" value="orchestra"  name="radio" >
+                                <label for="orchestra">Оркестърът</label>
+                            </p>
+                            <p style="padding:0 5%;">
+                                <input type="radio" id="band" value="band" name="radio">
+                                <label for="band">WhiteLines</label>
+                            </p><p id="RadioError" style="display: none;padding-left:5%;color:#c53211">  Задължително поле </p>
+                    <input type="text" id="name" name="name" placeholder="Your name" >             <p id="NameError" style="display: none;padding-left:5%;color:#c53211">  Задължително поле </p>
+                    <input type="text" id="subject" name="subject" placeholder="What do you want to contact us about?">    <p id="SubjectError" style="display: none;padding-left:5%;color:#c53211">  Задължително поле </p>
+                    <input type="email" id="email" name="email" required placeholder="Your email">        <p id="EmailError" style="display: none;padding-left:5%;color:#c53211">  Задължително поле </p>
+                    <textarea id="message" name="message" placeholder="Your message" ></textarea>
+                    <input type="checkbox" id="policy_check" name="policy_check" value="checked">
+                    <label for="policy_check" style="margin-left:5%;"> Кликайки кутийката се съгласявате с </label> <a style="color:#c53211;margin-left:5%;cursor:pointer;" onclick="openModal()">политиката за поверителност</a>.
+                    <input type="Submit" style="margin-top:1em;" id="submit_form">
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+            <ul class="footer-links">
+                <li><a href="../index/indexBG.html">Начало</a></li>
+                <li><a href="../index/indexBG.html#about">За нас</a></li>
+                <li><a href="../team/teamBG.html">Нашият Състав</a></li>
+                <li><a href="../band/bandBG.html">Рок Група</a></li>
+                <li><a href="../form/formBG.html">Свържи се с нас</a></li>
+                <li><a href="https://www.fels-sofia.org/">Първа Английска Езикова Гимназия</a></li>
+                <li><a style="cursor:pointer" onclick="openModal()">Политика за Поверителност</a></li>
+               
+            </ul>
+        </footer>
+        <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+    <script src="../form/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+
+</body>
+</html>

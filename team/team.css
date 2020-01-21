@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: transparent;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/team/head.jpg);
+}
+
+h1{
+    font-size:5em;
+    color: #e6dbc9;
+    text-shadow: 2px 2px 4px #000000;
+}
+h2{
+    font-size:2em;
+    color: #e6dbc9;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+h3{
+    font-size:3em;
+    color: #c53211;
+    text-align: center;
+    margin-bottom:1.5em;
+
+}
+h4{
+    font-size:2em;
+    text-align: center;
+
+}
+h5{
+    font-size:1.5em;    
+    text-align: center;
+
+}
+p{
+    font-size:1.5em;
+}
+#policy_modal_container{
+    height:100vh;
+    width:100%;
+    display: none;
+}
+#close_btn{
+    height:40px;
+    width:auto;
+    border:1px solid #e6dbc9;
+    background-color: #c53211;
+    font-size:14px;
+    color:#e6dbc9;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size:14px;
+    margin-top:-10px;
+    width:110px;
+    text-align: center;
+    padding-top:10px;
+    margin-left:5%;
+    margin-bottom:10px;
+}
+#close_btn:hover{
+
+    border:1px solid #c53211;
+    background-color: #e6dbc9;
+    color:#c53211;
+}
+#policy_modal{
+
+    width:75%;
+    height:auto;
+    margin:5vh 12.5%;
+    background-color: #e6dbc9;
+    color:#2e3830;
+}
+#policy_modal > h3{
+    color:#c53211;
+    text-shadow: none;
+    font-size:1.5em;
+}
+#policy_modal>p{
+    font-size:1em;
+    margin:5%;
+}
+#modal_heading{
+    background-color: #c53211;
+    color:#e6dbc9;
+    height:auto;
+    padding-top:2.5vh;
+    font-size:0.8em;
+}
+#modal_heading>h2{
+    margin:10% 0;
+    text-align: center;
+}
+.head_img{
+    height:92vh;
+    background-color: transparent;
+    padding-top:10vh;
+
+    padding-bottom: 5vh;
+    padding-left:5%;
+
+}
+.wrapper{
+    background-color: #e6dbc9;
+    width:90%;
+    margin:0 5%;
+    height: 4500px;
+    padding-top:2em;
+}
+.button{
+    
+    height:45%;
+    width:100%;
+    border:2px solid #2e3830;
+    background-color: transparent;
+    text-shadow: 2px 2px 4px #000000;
+
+    font-size: 1.5em;
+    color:#e6dbc9;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding-top:0.6em;
+
+}
+.button:hover{
+    border:2px solid #c53211;
+    color:#2e3830;
+    background-color: #e6dbc9;
+    text-shadow:none;
+}
+.btn_container{
+    margin-top:20vh;
+    width:250px;
+    height:140px;
+}
+.person_container{
+    height:550px;
+
+}
+.person_photo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:30%;
+    height:300px;
+    float:left;
+    margin:1em 2.5% 1em 12.5%;
+}
+.person_article{
+    float:right;
+    width:45%;
+    margin:1em 10% 1em 0;
+    height:auto;
+
+
+}
+#conductor_photo{
+    background-image: url(../img/team/angelova.jpg);
+}
+#percussions_teacher_photo{
+    background-image: url(../img/team/Georgi_Asenov.jpg);
+}
+
+#trumpet_teacher_photo{
+    background-image: url(../img/team/Petar_Rizov.jpg);
+}
+#sax_teacher_photo{
+    background-image: url(../img/team/Mihail_Mihaylov.jpg);
+}
+#trombones_teacher_photo{
+    background-image: url(../img/team/Marin_Stankov.jpg);
+    background-position: top;
+
+}
+.player_container{
+    height:550px;
+
+}
+.player_photo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:30%;
+    height:300px;
+    float:right;
+    margin:1em 12.5% 1em 2.5%;
+}
+.player_article{
+    float:left;
+    width:45%;
+    margin:1em 0 1em 10%;
+    height:auto;
+
+
+}
+#dodov_player_photo{
+    background-image: url(../img/team/dodov.jpg);
+
+}
+#lilly_player_photo{
+    background-image: url(../img/team/lilly.jpg);
+    background-position: top;
+
+
+}
+@media  (max-width: 650px) {
+    p{
+        font-size:1em;
+    }
+}
+@media(max-width:500px){
+    .person_article{
+        float:none;
+        width:90%;
+        margin:1em 5%;
+    }
+    .person_photo{
+        float:none;
+        width:90%;
+        margin:1em 5%;
+    }
+    .person_container{
+        height: auto;
+    }
+    .player_article{
+        float:none;
+        width:90%;
+        margin:1em 5%;
+    }
+    .player_photo{
+        float:none;
+        width:90%;
+        margin:1em 5%;
+    }
+    .wrapper{
+        height:auto;
+    }
+    h1{
+        font-size:2em;
+    }
+    h2{
+        font-size:1.5em;
+    }
+
+}

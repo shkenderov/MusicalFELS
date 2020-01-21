@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: #2e3830;
+}
+
+.logo{
+    color:#e6dbc9;
+    letter-spacing: 5px;
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width:70%;
+    margin-top:2vh;
+
+}
+.nav-links li> a{
+    color:#e6dbc9;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size:14px;
+    padding-top:20px;
+}
+.nav-links a:hover{
+    color:#c53211;
+}
+.nav-links li{
+    list-style: none;
+}
+#navbtn{
+    height:auto;
+    width:auto;
+    border:3px solid #e6dbc9;
+    background-color: #c53211;
+    font-size:14px;
+    color:#e6dbc9;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size:14px;
+    margin-top:-10px;
+    width:150px;
+    text-align: center;
+    padding:11px 0;
+    
+}
+#navbtn:hover{
+    border:3px solid #c53211;
+    background-color: #eee678;
+    color:#c53211;
+
+}
+
+#burger{
+    cursor: pointer;
+    display: none;
+}
+#burger div{
+    width: 25px;
+    height:3px;
+    background-color: #e6dbc9;
+    margin:5px;
+}
+footer{
+    background-color: #161616;
+    height:180px;
+    margin-top:50px;
+    
+
+}
+.footer-links li>a{
+    color:#e6dbc9;
+}
+.footer-links li{
+    text-align: center;
+    list-style: none;
+    
+
+}
+.footer-links li>a:hover{
+    color:#c53211;
+}
+
+@media  (max-width: 900px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right:0px;
+        height:92vh;
+        top:8vh;
+        background-color: #2e3830;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width:50%;
+    }
+    #navbtn{
+        height:50px;
+    }
+    #burger{
+        display: block;
+    }
+}
+
+.nav-active{
+    display: flex;
+}
+

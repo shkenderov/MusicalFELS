@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+H1{
+    text-align: center;
+    font-size:5em;
+    margin-bottom: 1em;
+}
+h2{
+    font-size:2em;
+    margin-bottom:1em;
+}
+h3{
+    font-size:1.2em;
+    color:#c53211;
+    letter-spacing: 2px;
+}
+p{
+font-size:1.5em;
+}
+body{
+    background-image:url(../img/form/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+#policy_modal_container{
+    height:100vh;
+    width:100%;
+    display: none;
+}
+#close_btn{
+    height:40px;
+    width:auto;
+    border:1px solid #e6dbc9;
+    background-color: #c53211;
+    font-size:14px;
+    color:#e6dbc9;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size:14px;
+    margin-top:-10px;
+    width:110px;
+    text-align: center;
+    padding-top:10px;
+    margin-left:5%;
+    margin-bottom:10px;
+}
+#close_btn:hover{
+
+    border:1px solid #c53211;
+    background-color: #e6dbc9;
+    color:#c53211;
+}
+#policy_modal{
+
+    width:75%;
+    height:auto;
+    margin:5vh 12.5%;
+    background-color: #e6dbc9;
+    color:#2e3830;
+}
+
+#policy_modal>p{
+    font-size:1em;
+    margin:5%;
+}
+#modal_heading{
+    background-color: #c53211;
+    color:#e6dbc9;
+    height:auto;
+    padding-top:2.5vh;
+    font-size:0.8em;
+}
+#modal_heading>h2{
+    margin:10% 0;
+    text-align: center;
+}
+.wrapper{
+    width:90%;
+    margin:0 5%;
+    background-color:#e6dbc9;
+    height:1000px;
+}
+
+#form_container{
+    float:right;
+    height:750px;
+    width:40%;
+    margin:0 5%;
+
+}
+#info{
+    float: left;
+    height:750px;
+    width:50%;
+    padding-left: 5%;
+
+}
+input,textarea{
+    background-color: transparent;
+    border:none;
+    border-bottom: 4px solid #c53211;
+    width:90%;
+    margin:1em 5%;
+    height:50px;
+    font-size:1em;
+    color:#2e3830;
+    font-weight: bold;
+}
+
+input:focus,textarea:focus{
+    background-color: #d1c6b5;
+    outline: none;
+}
+textarea{
+    height:100px;
+    width:90%;
+    margin:5%;
+}
+#band_text{
+    font-size:1em;
+    color:#e6dbc9;
+    letter-spacing: 2px;
+
+}
+.band_ad{
+    background-color: #2e3830;
+    margin-top:3em;
+    padding:10% 0 5% 10%;
+    margin-left:-7em;
+}
+#adbtn{
+    width:150px;
+    height:50px;
+    background-color: #c53211;
+    border: 2px solid #e6dbc9;
+    color:#e6dbc9;
+    font-weight: bold;
+    padding-left:20px;
+    padding-top:9px;
+    margin-top:2em;
+}
+#adbtn:hover{
+    background-color: #e6dbc9;
+    border: 2px solid #c53211;
+    color:#2e3830;
+}
+#submit_form{
+    width:90%;
+    margin:0 5%;
+    height:50px;
+    background-color: #e6dbc9;
+    border:3px solid #c53211;
+    font-size:1em;
+    color:#2e3830;
+    cursor: pointer;
+}
+#submit_form:hover{
+    border:3px solid #2e3830;
+
+
+}
+
+
+input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #000;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+  }
+  
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    background-color: MediumSeaGreen;
+    border-color: MediumSeaGreen;
+    color: #fff;
+  }
+  
+  input[type=checkbox]:disabled + label:before {
+    transform: scale(1);
+    border-color: #aaa;
+  }
+  
+  input[type=checkbox]:checked:disabled + label:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+  }
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    display:none;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #c53211;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+@media  (max-width: 1100px) {
+    #form_container,#info{
+        float:none; 
+        width: 90%;
+        margin:0 5%;
+        height:auto;
+    }
+    #form_container{
+        margin-top:2em;
+    }
+    .wrapper{
+        height:auto;
+        padding-bottom:5em;
+    }
+    #policy_modal{
+
+        width:95%;
+        height:auto;
+        margin:5vh 2.5%;
+        background-color: #e6dbc9;
+        color:#2e3830;
+    }
+}
+
+@media  (max-width: 500px) {
+
+    h1{
+        font-size:2em;
+       
+    }
+    h2{
+        font-size:1.3em;
+    
+    }
+    h3{
+        font-size:1.2em;
+    
+    }
+    h4{
+        font-size:1.5em;
+    }
+    h5{
+        font-size: 1.2em;
+    }
+    h6{
+        font-size: 2em;
+
+    
+    }
+    #article>p{
+        font-size:1em;
+
+    }
+    p{
+        font-size:1em;
+
+    }
+}
+@media  (max-width: 550px) {
+    .band_ad{
+
+        margin-left:-5%;
+    }
+}
