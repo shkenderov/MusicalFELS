@@ -1,6 +1,19 @@
 function main(){
+    var firebaseConfig = {
+        apiKey: "AIzaSyBRrYLjFX_-gvh92NMdhvDnL89M2l-IKio",
+        authDomain: "event-connector.firebaseapp.com",
+        databaseURL: "https://event-connector.firebaseio.com",
+        projectId: "event-connector",
+        storageBucket: "https://event-connector.firebaseio.com/",
+        messagingSenderId: "14597482531",
+        appId: "1:14597482531:web:f2b8d00300e34e92bfa996",
+        measurementId: "G-LZCEDYYD69"
+      };
+      // Initialize Firebase
+      //firebase.initializeApp(firebaseConfig);
+      //firebase.analytics();
     // Your web app's Firebase configuration
-  var firebaseConfig = {
+ /*var firebaseConfig = {
     apiKey: "AIzaSyCqHLwsfxwPSwJ3IwMWnWeseM6O_hzbJuc",
     authDomain: "test-33b8a.firebaseapp.com",
     databaseURL: "https://test-33b8a.firebaseio.com",
@@ -8,7 +21,7 @@ function main(){
     storageBucket: "test-33b8a.appspot.com",
     messagingSenderId: "891645643905",
     appId: "1:891645643905:web:165fe3134defdd9f"
-  };
+  };*/
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 

@@ -1,6 +1,6 @@
 
 
-# WEB TECHNOLOGIES COURSEWORK (CDA404)
+# FELS BRASS ORCHESTRA WEBSITE 
 
 ## Background
 This website is about the Brass Orchestra of the First English Language School in Sofia, Bulgaria, where I play the trumpet since 2012. The Orchestra needs a promotional tool, which will enable it to get more invitations to concerts, festivals and music competitions. The website will be used for reaching out to more people aged 14-20, who may want to learn to play an instrument and join the orchestra, since all of the beginner training and instruments are provided by the school. Under the management of the orchestra's director and conductor recently has been formed a rock band, which will have a dedicated page on the website. Both the orchestra and the rock band will make use of a "Contact us" page on the website - a form, designed to make reaching us for any inquiries quick and efficient.

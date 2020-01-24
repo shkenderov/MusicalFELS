@@ -12,7 +12,7 @@ body{
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(../img/team/head.webp);
+    background-image: url(../img/team/head.jpg);
 }
 
 h1{
@@ -48,7 +48,7 @@ p{
     font-size:1.5em;
 }
 #policy_modal_container{
-    height:100vh;
+    height:90vh;
     width:100%;
     display: none;
 }
@@ -68,7 +68,6 @@ p{
     text-align: center;
     padding-top:10px;
     margin-left:5%;
-    margin-bottom:10px;
 }
 #close_btn:hover{
 
@@ -79,10 +78,13 @@ p{
 #policy_modal{
 
     width:75%;
-    height:auto;
-    margin:5vh 12.5%;
+    margin:0 12.5%;
     background-color: #e6dbc9;
     color:#2e3830;
+    height:auto;
+    padding-bottom: 15px;
+    margin-top: 2vh;
+
 }
 #policy_modal > h3{
     color:#c53211;
@@ -101,7 +103,7 @@ p{
     font-size:0.8em;
 }
 #modal_heading>h2{
-    margin:10% 0;
+    margin:5% 0;
     text-align: center;
 }
 .head_img{
@@ -169,20 +171,20 @@ p{
 
 }
 #conductor_photo{
-    background-image: url(../img/team/angelova.webp);
+    background-image: url(../img/team/angelova.jpg);
 }
 #percussions_teacher_photo{
-    background-image: url(../img/team/Georgi_Asenov.webp);
+    background-image: url(../img/team/Georgi_Asenov.jpg);
 }
 
 #trumpet_teacher_photo{
-    background-image: url(../img/team/Petar_Rizov.webp);
+    background-image: url(../img/team/Petar_Rizov.jpg);
 }
 #sax_teacher_photo{
-    background-image: url(../img/team/Mihail_Mihaylov.webp);
+    background-image: url(../img/team/Mihail_Mihaylov.jpg);
 }
 #trombones_teacher_photo{
-    background-image: url(../img/team/Marin_Stankov.webp);
+    background-image: url(../img/team/Marin_Stankov.jpg);
     background-position: top;
 
 }
@@ -208,11 +210,11 @@ p{
 
 }
 #dodov_player_photo{
-    background-image: url(../img/team/dodov.webp);
+    background-image: url(../img/team/dodov.jpg);
 
 }
 #lilly_player_photo{
-    background-image: url(../img/team/lilly.webp);
+    background-image: url(../img/team/lilly.jpg);
     background-position: top;
 
 

@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(../img/band/head.webp);
+    background-image: url(../img/band/head.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -31,7 +31,7 @@ h3{
     text-shadow: 2px 2px 4px #000000;
 }
 #policy_modal_container{
-    height:100vh;
+    height:90vh;
     width:100%;
     display: none;
 }
@@ -70,7 +70,8 @@ h3{
     margin:5vh 12.5%;
     background-color: #991818;
     color:#2e3830;
-
+    padding-bottom: 15px;
+    margin-top: 2vh;
 }
 #policy_modal>p{
     font-size:1em;
@@ -86,7 +87,7 @@ h3{
     font-size:0.8em;
 }
 #modal_heading>h2{
-    margin:10% 0;
+    margin:5% 0;
     text-align: center;
 }
 .head_img{
@@ -148,27 +149,27 @@ button:hover{
     
 }
 #img1{
-    background-image: url(../img/band/all.webp);
+    background-image: url(../img/band/all.jpg);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
 }
 #img2{
-    background-image: url(../img/band/singer.webp);
+    background-image: url(../img/band/singer.jpg);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
 
 }
 #img3{
-    background-image: url(../img/band/keys.webp);
+    background-image: url(../img/band/keys.jpg);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
 
 }
 #side_pic{
-    background-image: url(../img/band/guitar.webp);
+    background-image: url(../img/band/guitar.jpg);
     background-size: cover;
     background-position: center;
     margin:1.5em 1em;

@@ -36,14 +36,14 @@ p{
 font-size:1.5em;
 }
 body{
-    background-image:url(../img/form/background.webp);
+    background-image:url(../img/form/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
 }
 #policy_modal_container{
-    height:100vh;
+    height:90vh;
     width:100%;
     display: none;
 }
@@ -78,6 +78,8 @@ body{
     margin:5vh 12.5%;
     background-color: #e6dbc9;
     color:#2e3830;
+    padding-bottom: 15px;
+    margin-top: 2vh;
 }
 
 #policy_modal>p{
@@ -92,7 +94,7 @@ body{
     font-size:0.8em;
 }
 #modal_heading>h2{
-    margin:10% 0;
+    margin:5% 0;
     text-align: center;
 }
 .wrapper{

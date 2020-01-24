@@ -14,6 +14,7 @@ nav{
     align-items: center;
     height: 8vh;
     background-color: #2e3830;
+    border-bottom: 2px solid black;
 }
 
 .logo{
@@ -60,7 +61,7 @@ nav{
 }
 #navbtn:hover{
     border:3px solid #c53211;
-    background-color: #eee678;
+    background-color: #e6dbc9;
     color:#c53211;
 
 }
@@ -96,9 +97,7 @@ footer{
 }
 
 @media  (max-width: 900px) {
-    body{
-        overflow-x: hidden;
-    }
+
     .nav-links{
         position: absolute;
         right:0px;
