@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(../img/band/head.jpg);
+    background-image: url(../img/band/head.webp);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -148,27 +148,27 @@ button:hover{
     
 }
 #img1{
-    background-image: url(../img/band/all.JPG);
+    background-image: url(../img/band/all.webp);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
 }
 #img2{
-    background-image: url(../img/band/singer.JPG);
+    background-image: url(../img/band/singer.webp);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
 
 }
 #img3{
-    background-image: url(../img/band/keys.JPG);
+    background-image: url(../img/band/keys.webp);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
 
 }
 #side_pic{
-    background-image: url(../img/band/guitar.JPG);
+    background-image: url(../img/band/guitar.webp);
     background-size: cover;
     background-position: center;
     margin:1.5em 1em;

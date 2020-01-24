@@ -12,7 +12,7 @@ body{
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(../img/team/head.jpg);
+    background-image: url(../img/team/head.webp);
 }
 
 h1{
@@ -169,20 +169,20 @@ p{
 
 }
 #conductor_photo{
-    background-image: url(../img/team/angelova.jpg);
+    background-image: url(../img/team/angelova.webp);
 }
 #percussions_teacher_photo{
-    background-image: url(../img/team/Georgi_Asenov.jpg);
+    background-image: url(../img/team/Georgi_Asenov.webp);
 }
 
 #trumpet_teacher_photo{
-    background-image: url(../img/team/Petar_Rizov.jpg);
+    background-image: url(../img/team/Petar_Rizov.webp);
 }
 #sax_teacher_photo{
-    background-image: url(../img/team/Mihail_Mihaylov.jpg);
+    background-image: url(../img/team/Mihail_Mihaylov.webp);
 }
 #trombones_teacher_photo{
-    background-image: url(../img/team/Marin_Stankov.jpg);
+    background-image: url(../img/team/Marin_Stankov.webp);
     background-position: top;
 
 }
@@ -208,11 +208,11 @@ p{
 
 }
 #dodov_player_photo{
-    background-image: url(../img/team/dodov.jpg);
+    background-image: url(../img/team/dodov.webp);
 
 }
 #lilly_player_photo{
-    background-image: url(../img/team/lilly.jpg);
+    background-image: url(../img/team/lilly.webp);
     background-position: top;
 
 
