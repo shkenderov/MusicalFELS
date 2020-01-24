@@ -149,7 +149,7 @@ button:hover{
     
 }
 #img1{
-    background-image: url(../img/band/all.jpg);
+    background-image: url(../img/band/all.JPG);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
@@ -162,14 +162,14 @@ button:hover{
 
 }
 #img3{
-    background-image: url(../img/band/keys.jpg);
+    background-image: url(../img/band/keys.JPG);
     background-size: cover;
     background-position: center;
     margin:1.5em 0;
 
 }
 #side_pic{
-    background-image: url(../img/band/guitar.jpg);
+    background-image: url(../img/band/guitar.JPG);
     background-size: cover;
     background-position: center;
     margin:1.5em 1em;
