@@ -9,10 +9,10 @@ a{
 body{
     background-color: transparent;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(../img/team/head.jpg);
+    background-image: url(../img/team/tuba.jpg);
 }
 
 h1{
@@ -24,9 +24,11 @@ h2{
     font-size:2em;
     color: #e6dbc9;
     text-align: left;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: -2px 0 #2e3830, 0 2px #2e3830, 2px 0 #2e3830, 0 -2px #2e3830;
+
 
 }
+
 h3{
     font-size:3em;
     color: #c53211;
@@ -128,8 +130,8 @@ p{
     width:100%;
     border:2px solid #2e3830;
     background-color: transparent;
-    text-shadow: 2px 2px 4px #000000;
-
+    text-shadow: 2px 2px 3px  #000000;
+    
     font-size: 1.5em;
     color:#e6dbc9;
     cursor: pointer;
@@ -138,6 +140,7 @@ p{
     padding-top:0.6em;
 
 }
+
 .button:hover{
     border:2px solid #c53211;
     color:#2e3830;

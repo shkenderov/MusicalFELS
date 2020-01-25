@@ -119,5 +119,7 @@ footer{
 
 .nav-active{
     display: flex;
+    margin-top:0;
+    border-left:1px solid #e6dbc9;
 }
 

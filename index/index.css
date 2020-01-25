@@ -12,7 +12,7 @@ a:link {
   }
   
   a:hover {
-    text-decoration: none;
+    text-decoration:underline;
   }
   
   a:active {
@@ -62,7 +62,6 @@ p{
 }
 body{
     background-color: #2e3830;
-
     overflow: scroll;
 
 }
@@ -161,21 +160,22 @@ body{
     text-align: center;
 }
 .head_img{
+    min-height: 660px;
     height:92vh;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
 
 }
 #index_head{
-    background-image: url(../img/index/head.jpg);
+    background-image: url(../img/index/cond1.jpg);
     
 }
 .wrapper{
     width:90%;
     margin:0 5%;
     background-color:#e6dbc9;
-    height:1550px;
+    height:2100px;
     padding-top:1em;
     border:5px solid #c53211;
     border-top:none;
@@ -218,7 +218,6 @@ iframe{height:100%;width:100%;
 border: none;}
 #calendar{
     grid-column: 1/2;
-    margin-top:-9.5em;
 }
 #player{
     grid-column: 3/4;
@@ -272,6 +271,139 @@ border: none;}
     -webkit-filter: grayscale(0%); 
     filter: grayscale(0%); 
 }
+
+/* Slideshow container */
+.slideshow-container {
+    
+    width:95%;
+    margin:20px 2.5%;
+    box-sizing:border-box;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    height:60vh;
+
+    
+  }
+  .slidepics{
+    height:60vh;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:90%;
+
+  }
+  #slide1{
+      background-image: url(../img/index/cond2.jpg);
+      background-position: center;
+
+  }
+  #slide2{
+    background-image: url(../img/index/angelovaconcert.jpg);
+    background-position: center;
+
+  }
+  #slide3{
+    background-image: url(../img/index/head.jpg);
+    background-position: bottom;
+
+  }
+
+  /* Next & previous buttons */
+  .prev {
+    float: left;
+    height: 60vh;
+    width:5%;
+    font-size: 20px;
+    text-align: center;    
+    padding-top:30vh;
+
+
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    float: right;
+    height: 60vh;
+    width:5%;
+    font-size: 15px;
+    text-align: center;
+    font-size: 20px;
+    padding-top:30vh;
+
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #b1a99d;    
+    cursor: pointer;
+
+    color:#e6dbc9;
+    transition: 0.6s ease;
+
+    
+  }
+  
+  /* Caption text */
+  .text {
+      min-height: 42px;
+      background-color:#2e3830 ;
+    color: #e6dbc9;
+    font-size: 15px;
+    padding: 8px 12px;
+    width: 100%;
+    height:7vh;
+    margin-top:53vh;
+    border-top: 1px solid #e6dbc9;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #c53211;
+    font-size: 12px;
+    padding: 8px 12px;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #c53211;
+  }
+  .dot:hover{
+      background-color: #2e3830;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
 .about{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -336,18 +468,31 @@ a{
     cursor: pointer;
 }
 
+
 @media  (max-width: 1500px) {
     #article>p{
         font-size:1.5em;
     }
     .wrapper{
-        height: 1800px;
+        height: 2300px;
     }
 }
-@media(max-width:900px){
+@media(max-width:1150px){
+    h2{
+        font-size:1.5em;
+    
+    }
     .head_img{
         overflow: hidden;
     }
+    h1{
+        margin-top:400px;
+        font-size:3em ;
+
+    }
+}
+@media(max-width:900px){
+   
     nav{
         overflow: hidden;
     }
@@ -355,6 +500,11 @@ a{
         overflow: hidden;
 
     }
+    #head_img{
+        min-height: 650px;
+
+    }
+
     
 }
 @media  (max-width: 750px) {
@@ -369,7 +519,7 @@ a{
         padding-left:1em;
     }
     .wrapper{
-        height:2500px;
+        height:3000px;
     }
     
     #article{
@@ -409,15 +559,19 @@ a{
 
     }
 }
-@media  (max-width: 650px) {
+
+@media  (max-width: 666px) {
     .policy_popup{
         font-size: 12px;
+        margin-bottom: -70px;
     }
+
+
 }
     @media  (max-width: 600px) {
         
        .wrapper{
-           height:3500px;
+           height:4000px;
        }
        .menu{
            grid-auto-rows:250px;
@@ -456,10 +610,7 @@ a{
             font-size:3em;
            
         }
-        h2{
-            font-size:1.5em;
-        
-        }
+  
         h3{
             font-size:1.2em;
         
@@ -490,7 +641,7 @@ a{
             margin-top:-350px;
         }
         .wrapper{
-            height:3100px;
+            height:3600px;
         }
     }
     @media  (max-width: 270px) {
