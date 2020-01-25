@@ -63,6 +63,12 @@ p{
 body{
     background-color: #2e3830;
     overflow: scroll;
+    background-color: transparent;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../img/index/cond1.jpg);
 
 }
 .policy_popup{
@@ -162,15 +168,10 @@ body{
 .head_img{
     min-height: 660px;
     height:92vh;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
+    background-color: transparent;
 
 }
-#index_head{
-    background-image: url(../img/index/cond1.jpg);
-    
-}
+
 .wrapper{
     width:90%;
     margin:0 5%;
