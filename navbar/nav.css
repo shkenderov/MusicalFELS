@@ -21,6 +21,9 @@ nav{
     color:#e6dbc9;
     letter-spacing: 5px;
 }
+.logo:hover{
+    text-decoration: none;
+}
 .nav-links{
     display:flex;
     justify-content: space-around;
@@ -78,9 +81,9 @@ nav{
 }
 footer{
     background-color: #161616;
-    height:180px;
+    height:220px;
     margin-top:50px;
-    
+    padding-top:10px;
 
 }
 .footer-links li>a{
