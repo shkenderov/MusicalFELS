@@ -242,8 +242,8 @@ border: none;}
 }
 #player{
     height:40vh;
-    width:90%;
-    margin: 50px 5%;
+    width:50%;
+    margin: 50px 25%;
 }
 #about_us{
     grid-column: 2/3;
