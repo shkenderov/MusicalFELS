@@ -332,6 +332,11 @@ border: none;}
     background-position: bottom;
 
   }
+  #slide4{
+    background-image: url(../img/index/botevgrad.jpg);
+    background-position: center;
+
+  }
 
   /* Next & previous buttons */
   .prev {

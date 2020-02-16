@@ -25,7 +25,7 @@ h1{
 h2{
     margin-top:100px;
     text-align: center;
-    color:#2e3830;
+    color:#c53211;
 }
 h3{
     text-align: center;
@@ -38,12 +38,22 @@ h4{
     height: auto;
     margin:50px 2.5%;
 }
+#youtubevid{
+  text-align: center;
+  color:#c53211;
+  text-emphasis: bold;
+  font-size: 2em;
+  width: 80%;
+  margin: 0 10%;
+  height:600px;
+}
 .article_txt{
     margin-top:0;
     background-color: #2e3830;
     color:#e6dbc9;
     height: auto;
-    padding:10px;
+    padding:10px 5%;
+
 }
 .article_img{
   height: 70vh;
@@ -54,13 +64,13 @@ h4{
 
 }
 #article1_img{
-  background-image: url(../img/news/benefis1.JPG);
-}
-#article2_img{
   background-image: url(../img/news/benefis2.JPG);
 }
+#article2_img{
+  background-image: url(../img/news/elinpelin.jpg);
+}
 #article3_img{
-  background-image: url(../img/news/benefis3.JPG);
+  background-image: url(../img/news/botevgrad.jpg);
 }
 
 .carousel-wrapper{
@@ -132,13 +142,13 @@ h4{
   background-position: right;
   }
 .item-2{
-  background:url('../img/news/benefis2.JPG');
+  background-image: url(../img/news/elinpelin2.jpg);
    background-size:cover;
    background-position: left;
 
 }
 .item-3{
-  background:url('../img/news/benefis3.JPG');
+  background:url('../img/news/botevgrad2.jpg');
    background-size:cover;
    background-position: center;
 
@@ -239,7 +249,7 @@ h4{
     width:90%;
     margin:0 5%;
     background-color:#e6dbc9;
-    height:4000px;
+    height:5500px;
     padding-top:1em;
     border:5px solid #c53211;
     border-top:none;
@@ -248,9 +258,20 @@ h4{
 
 
 }
+@media  (max-width: 830px) {
+  .wrapper{
+    height: 5800px;
+  }  
+}
 
 @media  (max-width: 530px) {
+  #youtubevid{
+    width: 100%;
+    margin:0;
+  }  
+}
+@media  (max-width: 700px) {
     .wrapper{
-      height:4150px;
+      height:6500px;
     }
 }
