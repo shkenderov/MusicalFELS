@@ -33,6 +33,10 @@ h3{
 h4{
     text-align: center;
 }
+.head_pic{
+  height:92vh;
+  background-color: transparent;
+}
 .news_article{
     width: 95%;
     height: auto;
