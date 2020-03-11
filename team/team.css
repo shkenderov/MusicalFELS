@@ -235,7 +235,6 @@ p{
 }
 @media(max-width:1220px){
     #conductor_article2{
-
     overflow-y: scroll;
     }
 
@@ -245,6 +244,9 @@ p{
     p{
         font-size:1em;
         
+    }
+    h3{
+        font-size: 2em;
     }
 }
 @media(max-width:500px){
@@ -261,8 +263,10 @@ p{
         font-size:1em;
         
             font-size: 1em;
-            overflow-y: visible;
-            height: 200px;
+            height: fit-content;
+            overflow-y: hidden;
+
+
         
     }
     .person_photo{
